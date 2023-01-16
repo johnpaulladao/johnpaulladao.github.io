@@ -192,6 +192,60 @@ header .navbar a:hover{
   top: -100%; left: 0;
 }
 
+.speciality .box-container .box .content  {
+  text-align: center;
+  background: #fff;
+  padding: 2rem;
+}
+.speciality .box-container .box .content .img{
+  margin: 1.5rem 0;
+
+}
+.speciality .box-container .box .content h3{
+  font-size: 2.5rem;
+  color: #333;
+}
+.speciality .box-container .box .content p{
+  font-size: 1.6rem;
+  color:#666;
+  padding: 1rem 0;
+}
+
+.speciality .box-container .box:hover .image{
+top: 0;
+}
+
+.speciality .box-container .box:hover  .content{
+  transform: translate(100%);
+}
+
+.popular .box-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap:1.5rem;
+}
+
+.popular .box-container .box{
+  padding:2rem;
+  background:#fff;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  border:.1rem solid rgba(0,0,0,.3);
+  border-radius: .5rem;
+  text-align: center;
+  flex:1 1 30rem;
+  position: relative;
+}
+
+.popular .box-container .box img{
+  height:25rem;
+  object-fit: cover;
+  width:100%;
+  border-radius: .5rem;
+}
+
+
+
+
 
 
 
