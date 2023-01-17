@@ -29,6 +29,10 @@ span{
   color: var(--red);
 }
 
+.content span h3{
+  color: var(--red);
+}
+
 body{
   background:#f7f7f7;
 }
@@ -529,7 +533,3 @@ top: 0;
 
 }
 
-/* .img-logo{
-  width: 100px;
-  height: auto;
-} */
