@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
 :root{
   --red:#ff3838;
 }
@@ -18,7 +19,24 @@
   color:#fff;
 }
 
+.cursor {
+  left: 0;
+  top: 0;
+  width: 20px;
+  height:20px;
+  background-color: #f44336;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.cursor__follower {
+  transition: transform .4s;
+  width: 6px;
+  height: 6px;
+}
+
 html{
+  cursor: none ;
   font-size: 62.5%;
   overflow-x: hidden;
   scroll-behavior: smooth;
@@ -29,7 +47,7 @@ span{
   color: var(--red);
 }
 
-.content span h3{
+span h3{
   color: var(--red);
 }
 
