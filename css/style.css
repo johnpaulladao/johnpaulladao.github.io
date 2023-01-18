@@ -36,7 +36,7 @@
 }
 
 html{
-  /* cursor: none ; */
+  cursor: none ;
   font-size: 62.5%;
   overflow-x: hidden;
   scroll-behavior: smooth;
